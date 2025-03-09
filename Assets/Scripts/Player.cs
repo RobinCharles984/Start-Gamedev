@@ -47,12 +47,13 @@ public class Player : MonoBehaviour
     void Update()
     {
         Inputs();
+        OnRun();
+        OnRolling();
     }
 
     private void FixedUpdate()
     {
         OnMove();
-        OnRun();
     }
 
     #region Movement
@@ -83,7 +84,7 @@ public class Player : MonoBehaviour
 
     void OnRolling()
     {
-        if(Input.GetKey(KeyCode.E)) _isRolling = true;
+        if(Input.GetKeyDown(KeyCode.E)) _isRolling = true;
         
         else _isRolling = false;
 

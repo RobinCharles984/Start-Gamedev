@@ -19,8 +19,8 @@ public class PlayerAnim : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        OnMoveAnim();
-        MirrorPlayer();
+        OnMoveAnim(); //Walking
+        MirrorPlayer(); //Mirror direction
     }
 
     #region Movement
@@ -46,7 +46,7 @@ public class PlayerAnim : MonoBehaviour
 
     void OnRollAnim()
     {
-        anim.SetInteger("transition", 3);
+        anim.SetTrigger("isRoll");
     }
 
     void MirrorPlayer()
