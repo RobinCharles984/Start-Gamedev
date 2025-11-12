@@ -444,6 +444,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   runSpeed: 8
+  rollingSpeed: 6.5
 --- !u!50 &759856964
 Rigidbody2D:
   serializedVersion: 4
