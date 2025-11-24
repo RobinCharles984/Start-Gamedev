@@ -224,13 +224,13 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1
-    height: 0.9993132
+    width: 0.99999994
+    height: 0.99992764
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 61.1
   orthographic: 0
-  orthographic size: 5.4
+  orthographic size: 2.4676323
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_IgnoreTimeScale: 0
   m_WorldUpOverride: {fileID: 0}
   m_UpdateMethod: 2
-  m_BlendUpdateMethod: 1
+  m_BlendUpdateMethod: 0
   m_DefaultBlend:
     m_Style: 1
     m_Time: 2
