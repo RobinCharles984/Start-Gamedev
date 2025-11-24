@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Scenery
+    uniqueID: 1416658529
+    locked: 0
+  - name: Actors
+    uniqueID: 3607027591
+    locked: 0
+  - name: GUI
+    uniqueID: 2992009081
+    locked: 0
+  - name: UI
+    uniqueID: 1677047607
+    locked: 0
